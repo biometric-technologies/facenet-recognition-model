@@ -8,4 +8,4 @@ FaceNet is a neural network that turns a cropped face image into an embedding, a
 
 The [Biometric SDK](https://github.com/biometric-technologies/biometric-sdk) runs a FaceNet-type model as a TensorFlow Lite file that you supply through `FaceNetModelConfiguration(path, inputWidth, inputHeight, outputLength)`; [tensorflow-facenet-model-test](https://github.com/biometric-technologies/tensorflow-facenet-model-test) is a script for checking such a `.tflite` model on your own photos. To run the model outside TensorFlow Lite, see [biometric-models-onnx-converters](https://github.com/biometric-technologies/biometric-models-onnx-converters), which exports FaceNet from facenet-pytorch to ONNX.
 
-License: not yet specified. Contact: info@iriscan.net, https://www.iriscan.com
+License: not yet specified. Contact: info@iriscan.com, https://www.iriscan.com
